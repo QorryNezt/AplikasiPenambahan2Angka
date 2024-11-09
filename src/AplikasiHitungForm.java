@@ -154,7 +154,7 @@ public class AplikasiHitungForm extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
     
     private void clearFields() {
-        // Clear all fields
+        // Method Membersihkan Semua Fields
         txtAngka1.setText("");
         txtAngka2.setText("");
         txtHasil.setText("");
@@ -176,7 +176,7 @@ public class AplikasiHitungForm extends javax.swing.JFrame {
             int a = Integer.parseInt(txtAngka1.getText());
             int b = Integer.parseInt(txtAngka2.getText());
 
-            // Penjumlahan
+            // kode rumus untuk meng-execute Penjumlahan
             int sum = a + b;
             txtHasil.setText(String.valueOf(sum));
         } catch (NumberFormatException e) {
